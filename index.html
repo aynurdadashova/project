@@ -1,0 +1,1358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section>
+      <header id="header-sec">
+        <div class="header-top">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-9 col-12">
+                <span
+                  class="fw-medium d-flex align-items-center justify-content-center text-white"
+                >
+                  Bioderma, Institut Esthederm ve Etat Pur rəsmi satış saytıdır.
+                </span>
+              </div>
+              <div class="col-3 d-none d-lg-block">
+                <div class="tel d-flex align-items-center justify-content-end">
+                  <span>
+                    <a
+                      href="tel:+994 12 123 4567"
+                      class="text-decoration-none fw-medium"
+                    >
+                      <img
+                        src="./src/images/Icon-tel.svg"
+                        alt="tel-icon"
+                        class="me-2"
+                      />
+                      +994 12 123 4567</a
+                    >
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="header">
+          <nav class="navbar navbar-expand-lg bg-body-white flex-wrap py-0">
+            <div class="header-nav-top w-100 py-3">
+              <div class="container">
+                <div class="row">
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="col-lg-3 col-3">
+                      <div
+                        class="d-flex align-items-center justify-content-between"
+                      >
+                        <a class="navbar-brand" href="./index.html"
+                          ><img src="./src/images/Naos Logo.svg" alt="logo"
+                        /></a>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 d-none d-lg-block">
+                      <div
+                        class="collapse navbar-collapse justify-content-center"
+                        id="navbarTogglerDemo02"
+                      >
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item item-marka">
+                            <a
+                              class="nav-link active"
+                              aria-current="page"
+                              href="#"
+                            >
+                              <div class="marka-link-img">
+                                <img
+                                  src="./src/images/image 1.svg"
+                                  class="h-100 w-auto"
+                                  alt="bioderma_img"
+                                />
+                              </div>
+                            </a>
+                          </li>
+                          <li class="nav-item item-marka">
+                            <a class="nav-link" href="#">
+                              <div class="marka-link-img">
+                                <img
+                                  src="./src/images/image 2.svg"
+                                  class="h-100 w-auto"
+                                  alt="bioderma_img"
+                                />
+                              </div>
+                            </a>
+                          </li>
+                          <li class="nav-item item-marka">
+                            <a class="nav-link" href="#">
+                              <div class="marka-link-img">
+                                <img
+                                  src="./src/images/image 3.svg"
+                                  class="h-100 w-auto"
+                                  alt="bioderma_img"
+                                />
+                              </div>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-9">
+                      <div
+                        class="right d-flex align-items-center justify-content-end"
+                      >
+                        <form class="d-flex me-3" role="search">
+                          <label for="search-input">
+                            <input
+                              class="form-control me-2"
+                              type="search"
+                              placeholder="Axtar"
+                              aria-label="Search"
+                              id="search-input"
+                            />
+                            <button type="submit" class="search-icon-btn">
+                              <img
+                                src="./src/images/search-Icon.svg"
+                                alt="search-Icon"
+                                width="24px"
+                                height="24px"
+                              />
+                            </button>
+                          </label>
+                        </form>
+                        <a class="nav-link favorite-card me-3" href="#"
+                          ><img
+                            src="./src/images/favorite-icon.svg"
+                            alt="favorite-icon"
+                            width="24px"
+                            height="24px"
+                        /></a>
+                        <a
+                          class="nav-link me-3 shopping-card d-none d-lg-block"
+                          href="#"
+                          ><img
+                            src="./src/images/shopping-Icon.svg"
+                            alt="shopping-Icon"
+                            width="24px"
+                            height="24px"
+                          />
+                          <span
+                            class="d-flex align-items-center justify-content-center shopping-card-num"
+                            >0</span
+                          >
+                        </a>
+                        <button
+                          class="navbar-toggler"
+                          type="button"
+                          data-bs-toggle="offcanvas"
+                          data-bs-target="#offcanvasNavbar"
+                          aria-controls="offcanvasNavbar"
+                          aria-expanded="false"
+                          aria-label="Toggle navigation"
+                        >
+                          <span class="toggler-icon">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="20px"
+                              height="20px"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                            >
+                              <path
+                                d="M4 18L20 18"
+                                stroke="#ffffff"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                              />
+                              <path
+                                d="M4 12L20 12"
+                                stroke="#ffffff"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                              />
+                              <path
+                                d="M4 6L20 6"
+                                stroke="#ffffff"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                              />
+                            </svg>
+                          </span>
+                        </button>
+
+                        <div class="lang d-lg-flex align-items-center d-none">
+                          <a class="nav-link active" href="">AZ</a>
+                          <div class="lang-line mx-2"></div>
+                          <a class="nav-link" href="">EN</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="header-nav-bottom d-none d-lg-block w-100 nav-box">
+              <div class="container">
+                <ul class="navbar-nav justify-content-between">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link fw-semibold me-2"
+                      aria-current="page"
+                      href="#"
+                      >Brendlər və Məhsullar</a
+                    >
+                  </li>
+                  <li class="nav-item me-2">
+                    <a class="nav-link fw-semibold" href="#">Üz qulluğu</a>
+                  </li>
+                  <li class="nav-item me-2">
+                    <a class="nav-link fw-semibold" href="#">Bədən qulluğu</a>
+                  </li>
+                  <li class="nav-item me-2">
+                    <a class="nav-link fw-semibold" href="#"
+                      >Günəş qoruyucuları</a
+                    >
+                  </li>
+                  <li class="nav-item me-2">
+                    <a class="nav-link fw-semibold" href="#">Gözəl yaş alma</a>
+                  </li>
+                  <li class="nav-item me-2">
+                    <a class="nav-link fw-semibold" href="#">Qulluq setləri</a>
+                  </li>
+                  <li class="nav-item me-2">
+                    <a class="nav-link fw-semibold" href="#"
+                      >Aksiyalar və Kompaniyalar</a
+                    >
+                  </li>
+                  <li class="nav-item me-2">
+                    <a class="nav-link fw-semibold" href="#">Haqqımızda </a>
+                  </li>
+                  <li class="nav-item me-2">
+                    <a class="nav-link fw-semibold" href="#">Faydalı</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+
+        <!-- Offcanvas -->
+        <div
+          class="offcanvas offcanvas-start"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <button
+              type="button"
+              class="btn-close text-reset"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul
+              class="navbar-nav justify-content-end flex-grow-1 pe-3 align-items-center"
+            >
+              <li class="nav-item">
+                <a
+                  class="nav-link fw-semibold me-2"
+                  aria-current="page"
+                  href="#"
+                  >Brendlər və Məhsullar</a
+                >
+              </li>
+              <li class="nav-item me-2">
+                <a class="nav-link fw-semibold" href="#">Üz qulluğu</a>
+              </li>
+              <li class="nav-item me-2">
+                <a class="nav-link fw-semibold" href="#">Bədən qulluğu</a>
+              </li>
+              <li class="nav-item me-2">
+                <a class="nav-link fw-semibold" href="#">Günəş qoruyucuları</a>
+              </li>
+              <li class="nav-item me-2">
+                <a class="nav-link fw-semibold" href="#">Gözəl yaş alma</a>
+              </li>
+              <li class="nav-item me-2">
+                <a class="nav-link fw-semibold" href="#">Qulluq setləri</a>
+              </li>
+              <li class="nav-item me-2">
+                <a class="nav-link fw-semibold" href="#"
+                  >Aksiyalar və Kompaniyalar</a
+                >
+              </li>
+              <li class="nav-item me-2">
+                <a class="nav-link fw-semibold" href="#">Haqqımızda </a>
+              </li>
+              <li class="nav-item me-2">
+                <a class="nav-link fw-semibold" href="#">Faydalı</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <div class="container">
+          <div class="main-banner">
+            <div class="container text-center">
+              <div class="row">
+                <div class="col-lg-8 col-12">
+                  <div
+                    id="carouselExampleIndicators"
+                    class="carousel slide mb-lg-0 mb-5"
+                    data-bs-ride="carousel"
+                    data-bs-interval="2000"
+                  >
+                    <div class="carousel-indicators">
+                      <button
+                        type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide-to="0"
+                        class="active"
+                        aria-current="true"
+                        aria-label="Slide 1"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide-to="1"
+                        aria-label="Slide 2"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide-to="2"
+                        aria-label="Slide 3"
+                      ></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <a href="#" class="carousel-item active">
+                        <h3 class="carousel-text fw-normal">
+                          Ləkəyə qarşı
+                          <span class="fw-semibold">Parlaqladıcı</span> qayğı:
+                          <span class="fw-normal">Pigmentbio</span>
+                        </h3>
+                        <img
+                          src="./src/images/slider-img.png"
+                          class="d-block w-100 h-100"
+                          alt="..."
+                        />
+                        <img
+                          src="./src/images/bioderma-2.png"
+                          class="carousel-item-product w-auto"
+                          alt="..."
+                        />
+                      </a>
+                      <a href="#" class="carousel-item">
+                        <h3 class="carousel-text fw-normal">
+                          Ləkəyə qarşı
+                          <span class="fw-semibold">Parlaqladıcı</span> qayğı:
+                          <span class="fw-normal">Pigmentbio</span>
+                        </h3>
+                        <img
+                          src="./src/images/slider-img.png"
+                          class="d-block w-100 h-100"
+                          alt="..."
+                        />
+                        <img
+                          src="./src/images/bioderma-2.png"
+                          class="carousel-item-product w-auto"
+                          alt="..."
+                        />
+                      </a>
+                      <a href="#" class="carousel-item">
+                        <h3 class="carousel-text fw-normal">
+                          Ləkəyə qarşı
+                          <span class="fw-semibold">Parlaqladıcı</span> qayğı:
+                          <span class="fw-normal">Pigmentbio</span>
+                        </h3>
+                        <img
+                          src="./src/images/slider-img.png"
+                          class="d-block w-100 h-100"
+                          alt="..."
+                        />
+                        <img
+                          src="./src/images/bioderma-2.png"
+                          class="carousel-item-product w-auto"
+                          alt="..."
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                  <aside>
+                    <a href="#" class="reklam-bg d-flex align-items-center">
+                      <div
+                        class="reklam-text text-start d-flex flex-column justify-content-between h-100"
+                      >
+                        <h5 class="fw-normal">
+                          Ləkəyə qarşı
+                          <span class="fw-semibold">Parlaqladıcı</span> qayğı:
+                        </h5>
+                        <div class="reklam-text-bottom">
+                          <span class="fw-normal">Make-up removal</span>
+                          <h6 class="text-black mt-2">
+                            Sensibio Micellar water, 1 l
+                          </h6>
+                          <button
+                            type="button"
+                            class="btn btn-danger mt-4 px-4 fw-normal"
+                          >
+                            <span class="fw-semibold">30%</span> Endirim
+                          </button>
+                        </div>
+                      </div>
+                      <div class="reklam-img">
+                        <img
+                          src="./src/images/bioderma.png"
+                          alt="bioderma"
+                          class="h-100"
+                        />
+                      </div>
+                    </a>
+                  </aside>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sale mb-5">
+            <div class="sale-wrap">
+              <div
+                class="sale-header d-flex align-items-center justify-content-between my-4"
+              >
+                <h5>
+                  <a href="#" class="text-decoration-none pb-2 pe-4 fw-normal"
+                    >Endirimli məhsullar</a
+                  >
+                </h5>
+                <button
+                  type="button"
+                  class="btn btn-outline-secondary fw-normal"
+                >
+                  Hamısına bax
+                </button>
+              </div>
+              <div class="sale-cards">
+                <div class="row">
+                  <div class="col-lg-3 col-md-6 col-12">
+                    <a href="#" class="text-decoration-none">
+                      <div class="card border-0 w-100 mb-lg-0 mb-5">
+                        <div
+                          class="card-box-bg d-flex align-items-center flex-column justify-content-center position-relative"
+                        >
+                          <span
+                            class="detail d-flex position-absolute flex-wrap"
+                          >
+                            <span class="detail-text-1 fw-normal me-2"
+                              >Çox satılan</span
+                            >
+                            <span class="detail-text-2 fw-normal"
+                              >Pulsuz çatdırılma</span
+                            >
+                          </span>
+                          <img
+                            src="./src/images/bioderma-sale.png"
+                            class="card-img-top h-50 w-auto"
+                            alt="..."
+                          />
+                        </div>
+                        <div class="card-body px-0">
+                          <h6 class="card-title fw-normal">Bioderma</h6>
+                          <p class="card-text fw-medium">
+                            Sensibio Micellar water, 1 l
+                          </p>
+                          <p class="card-text price fw-medium">14.00 AZN</p>
+                        </div>
+                        <a
+                          href="#"
+                          class="btn btn-outline-primary w-100 fw-normal d-flex align-items-center justify-content-center add-card"
+                          >Səbətə at
+                          <span class="ms-3 icon-shopping"
+                            ><svg
+                              width="19"
+                              height="21"
+                              viewBox="0 0 19 21"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M13.8333 9.41667V5.08333C13.8333 2.6901 11.8932 0.75 9.49998 0.75C7.10675 0.75 5.16665 2.6901 5.16665 5.08333V9.41667M1.91665 7.25H17.0833L18.1666 20.25H0.833313L1.91665 7.25Z"
+                                stroke="#009BC7"
+                                stroke-width="1.4"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              /></svg></span
+                        ></a>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-12">
+                    <a href="#" class="text-decoration-none">
+                      <div class="card border-0 w-100 mb-lg-0 mb-5">
+                        <div
+                          class="card-box-bg d-flex align-items-center flex-column justify-content-center position-relative"
+                        >
+                          <span
+                            class="detail d-flex position-absolute flex-wrap"
+                          >
+                            <span class="detail-text-1 fw-normal me-2"
+                              >Çox satılan</span
+                            >
+                          </span>
+                          <img
+                            src="./src/images/bioderma-3.png"
+                            class="card-img-top h-50 w-auto"
+                            alt="..."
+                          />
+                        </div>
+                        <div class="card-body px-0">
+                          <h6 class="card-title">Bioderma</h6>
+                          <p class="card-text fw-medium">
+                            Sensibio Micellar water, 1 l
+                          </p>
+                          <p class="card-text price fw-medium">14.00 AZN</p>
+                        </div>
+                        <a
+                          href="#"
+                          class="btn btn-outline-primary w-100 fw-normal d-flex align-items-center justify-content-center add-card"
+                          >Səbətə at
+                          <span class="ms-3 icon-shopping"
+                            ><svg
+                              width="19"
+                              height="21"
+                              viewBox="0 0 19 21"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M13.8333 9.41667V5.08333C13.8333 2.6901 11.8932 0.75 9.49998 0.75C7.10675 0.75 5.16665 2.6901 5.16665 5.08333V9.41667M1.91665 7.25H17.0833L18.1666 20.25H0.833313L1.91665 7.25Z"
+                                stroke="#009BC7"
+                                stroke-width="1.4"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              /></svg></span
+                        ></a>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-12">
+                    <a href="#" class="text-decoration-none">
+                      <div class="card border-0 w-100 mb-lg-0 mb-5">
+                        <div
+                          class="card-box-bg d-flex align-items-center flex-column justify-content-center position-relative"
+                        >
+                          <span
+                            class="detail d-flex position-absolute flex-wrap"
+                          >
+                            <span class="detail-text-1 fw-normal me-2"
+                              >Çox satılan</span
+                            >
+                            <span class="detail-text-2 fw-normal"
+                              >Pulsuz çatdırılma</span
+                            >
+                          </span>
+                          <img
+                            src="./src/images/bioderma-4.png"
+                            class="card-img-top h-50 w-auto"
+                            alt="..."
+                          />
+                        </div>
+                        <div class="card-body px-0">
+                          <h6 class="card-title">Bioderma</h6>
+                          <p class="card-text fw-medium">
+                            Sensibio Micellar water, 1 l
+                          </p>
+                          <p class="card-text price fw-medium">14.00 AZN</p>
+                        </div>
+                        <a
+                          href="#"
+                          class="btn btn-outline-primary w-100 fw-normal d-flex align-items-center justify-content-center add-card"
+                          >Səbətə at
+                          <span class="ms-3 icon-shopping"
+                            ><svg
+                              width="19"
+                              height="21"
+                              viewBox="0 0 19 21"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M13.8333 9.41667V5.08333C13.8333 2.6901 11.8932 0.75 9.49998 0.75C7.10675 0.75 5.16665 2.6901 5.16665 5.08333V9.41667M1.91665 7.25H17.0833L18.1666 20.25H0.833313L1.91665 7.25Z"
+                                stroke="#009BC7"
+                                stroke-width="1.4"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              /></svg></span
+                        ></a>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-12">
+                    <a href="#" class="text-decoration-none">
+                      <div class="card border-0 w-100 mb-lg-0 mb-5">
+                        <div
+                          class="card-box-bg d-flex align-items-center flex-column justify-content-center position-relative"
+                        >
+                          <span
+                            class="detail d-flex position-absolute flex-wrap"
+                          >
+                            <span class="detail-text-1 fw-normal me-2"
+                              >Çox satılan</span
+                            >
+                          </span>
+                          <img
+                            src="./src/images/bioderma-5.png"
+                            class="card-img-top h-50 w-auto"
+                            alt="..."
+                          />
+                        </div>
+                        <div class="card-body px-0">
+                          <h6 class="card-title">Bioderma</h6>
+                          <p class="card-text fw-medium">
+                            Sensibio Micellar water, 1 l
+                          </p>
+                          <p class="card-text price fw-medium">14.00 AZN</p>
+                        </div>
+                        <a
+                          href="#"
+                          class="btn btn-outline-primary w-100 fw-normal d-flex align-items-center justify-content-center add-card"
+                          >Səbətə at
+                          <span class="ms-3 icon-shopping"
+                            ><svg
+                              width="19"
+                              height="21"
+                              viewBox="0 0 19 21"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M13.8333 9.41667V5.08333C13.8333 2.6901 11.8932 0.75 9.49998 0.75C7.10675 0.75 5.16665 2.6901 5.16665 5.08333V9.41667M1.91665 7.25H17.0833L18.1666 20.25H0.833313L1.91665 7.25Z"
+                                stroke="#009BC7"
+                                stroke-width="1.4"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              /></svg></span
+                        ></a>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="products mb-5">
+            <div class="row">
+              <div class="col-lg-6 col-12 mb-lg-0 mb-4">
+                <a href="#">
+                  <div class="products-bg">
+                    <img
+                      class="w-100 h-100"
+                      src="./src/images/products1.png"
+                      alt="products1"
+                    />
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-6 col-12 mb-lg-0 mb-4">
+                <a href="#">
+                  <div class="products-bg">
+                    <img
+                      class="w-100 h-100"
+                      src="./src/images/products2.png"
+                      alt="products2"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="row d-flex align-items-center justify-content-center">
+              <div class="col-lg-3 col-12">
+                <div
+                  class="d-flex align-items-center justify-content-center my-4"
+                >
+                  <a
+                    href="#"
+                    class="btn btn-outline-primary d-inline-flex align-items-center justify-content-center w-100"
+                    >Daha çox</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="skin-care">
+            <div
+              class="sale-header d-flex align-items-center justify-content-between my-4"
+            >
+              <h5>
+                <a href="#" class="text-decoration-none pb-2 pe-4 fw-normal"
+                  >Dəri qulluğu rutini</a
+                >
+              </h5>
+            </div>
+            <div class="sale-cards">
+              <div class="row">
+                <div class="col-lg-4 col-12 mb-lg-0 mb-5">
+                  <a href="#" class="text-decoration-none">
+                    <div class="card border-0 w-100">
+                      <div
+                        class="card-box-bg d-flex align-items-center flex-column justify-content-center position-relative p-0"
+                      >
+                        <img
+                          src="./src/images/skin-care-1.png"
+                          class="card-img-top h-100 w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div
+                        class="card-body px-0 d-flex flex-column align-items-center justify-content-center"
+                      >
+                        <p class="card-text fw-medium">1. Addım: Təmizlə</p>
+                        <p class="card-text">
+                          Dəri tipinə uyğun təmizləyicilər
+                        </p>
+                      </div>
+                      <div
+                        class="row d-flex align-items-center justify-content-center"
+                      >
+                        <div class="col-lg-10 col-md-9 col-12">
+                          <a href="#" class="btn btn-outline-dark w-100"
+                            >Kəşf et</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-lg-4 col-12 mb-lg-0 mb-5">
+                  <a href="#" class="text-decoration-none w-100">
+                    <div class="card border-0 w-100">
+                      <div
+                        class="card-box-bg d-flex align-items-center flex-column justify-content-center position-relative p-0"
+                      >
+                        <img
+                          src="./src/images/skin-care-2.png"
+                          class="card-img-top h-100 w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div
+                        class="card-body px-0 d-flex flex-column align-items-center justify-content-center"
+                      >
+                        <p class="card-text fw-medium text-center">
+                          2. Addım: Müalicə et və qulluq (nəmləndir) et
+                        </p>
+                        <p class="card-text">
+                          Dəri tipinə uyğun qulluq məhsulları
+                        </p>
+                      </div>
+                      <div
+                        class="row d-flex align-items-center justify-content-center"
+                      >
+                        <div class="col-lg-10 col-md-9 col-12">
+                          <a href="#" class="btn btn-outline-dark w-100"
+                            >Kəşf et</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-lg-4 col-12 mb-lg-0 mb-5">
+                  <a href="#" class="text-decoration-none">
+                    <div class="card border-0 w-100">
+                      <div
+                        class="card-box-bg d-flex align-items-center flex-column justify-content-center position-relative p-0"
+                      >
+                        <img
+                          src="./src/images/skin-care-3.png"
+                          class="card-img-top h-100 w-100"
+                          alt="..."
+                        />
+                      </div>
+                      <div
+                        class="card-body px-0 d-flex flex-column align-items-center justify-content-center"
+                      >
+                        <p class="card-text fw-medium">
+                          3. Addım: Günəşdən qoru
+                        </p>
+                        <p class="card-text">
+                          Dəri tipinə uyğun Günəş qoruyucuları
+                        </p>
+                      </div>
+                      <div
+                        class="row d-flex align-items-center justify-content-center"
+                      >
+                        <div class="col-lg-10 col-md-9 col-12">
+                          <a href="#" class="btn btn-outline-dark w-100"
+                            >Kəşf et</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slider my-5">
+            <div class="row">
+              <div class="col">
+                <div
+                  id="carouselExampleIndicators2"
+                  class="carousel slide mb-lg-0 mb-5"
+                  data-bs-ride="carousel"
+                  data-bs-interval="2000"
+                >
+                  <div class="carousel-indicators">
+                    <button
+                      type="button"
+                      data-bs-target="#carouselExampleIndicators2"
+                      data-bs-slide-to="0"
+                      class="active"
+                      aria-current="true"
+                      aria-label="Slide 1"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselExampleIndicators2"
+                      data-bs-slide-to="1"
+                      aria-label="Slide 2"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carouselExampleIndicators2"
+                      data-bs-slide-to="2"
+                      aria-label="Slide 3"
+                    ></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <a href="#" class="carousel-item active">
+                      <div class="carousel-text-box position-absolute">
+                        <div class="carousel-text-box-header">
+                          <h3 class="carousel-text-left text-white fw-semibold">
+                            MEGA DISCOUNT OF THE MONTH
+                          </h3>
+                          <div class="carousel-text-box-line"></div>
+                          <h3 class="carousel-text-left fw-normal text-white">
+                            UP TO <span class="fw-semibold">30%</span> OFF
+                          </h3>
+                        </div>
+                        <div class="carousel-text-box-bottom">
+                          <span class="fw-normal text-white d-flex mb-2"
+                            >Make-up removal</span
+                          >
+                          <span class="text-black fw-medium d-flex"
+                            >Sensibio Micellar water, 1 l</span
+                          >
+                        </div>
+                      </div>
+                      <img
+                        src="./src/images/slider-bottom.jpeg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </a>
+                    <a href="#" class="carousel-item active">
+                      <div class="carousel-text-box position-absolute">
+                        <div class="carousel-text-box-header">
+                          <h3 class="carousel-text-left text-white fw-semibold">
+                            MEGA DISCOUNT OF THE MONTH
+                          </h3>
+                          <div class="carousel-text-box-line"></div>
+                          <h3 class="carousel-text-left fw-normal text-white">
+                            UP TO <span class="fw-semibold">30%</span> OFF
+                          </h3>
+                        </div>
+                        <div class="carousel-text-box-bottom">
+                          <span class="fw-normal text-white d-flex mb-2"
+                            >Make-up removal</span
+                          >
+                          <span class="text-black fw-medium d-flex"
+                            >Sensibio Micellar water, 1 l</span
+                          >
+                        </div>
+                      </div>
+                      <img
+                        src="./src/images/slider-bottom.jpeg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </a>
+
+                    <a href="#" class="carousel-item active">
+                      <div class="carousel-text-box position-absolute">
+                        <div class="carousel-text-box-header">
+                          <h3 class="carousel-text-left text-white fw-semibold">
+                            MEGA DISCOUNT OF THE MONTH
+                          </h3>
+                          <div class="carousel-text-box-line"></div>
+                          <h3 class="carousel-text-left fw-normal text-white">
+                            UP TO <span class="fw-semibold">30%</span> OFF
+                          </h3>
+                        </div>
+                        <div class="carousel-text-box-bottom">
+                          <span class="fw-normal text-white d-flex mb-2"
+                            >Make-up removal</span
+                          >
+                          <span class="text-black fw-medium d-flex"
+                            >Sensibio Micellar water, 1 l</span
+                          >
+                        </div>
+                      </div>
+                      <img
+                        src="./src/images/slider-bottom.jpeg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-banner my-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-3 col-12">
+                <div
+                  class="item d-flex align-items-center justify-content-lg-center justify-content-start"
+                >
+                  <div class="item-bg">
+                    <img
+                      src="./src/images/footer-banner-1.png"
+                      class="h-100"
+                      alt="footer-banner-1"
+                    />
+                  </div>
+                  <div class="item-desc">
+                    <p class="my-0 mx-1 fw-normal">
+                      Səhiyyə mütəxəssisləri ilə 40 illik iş təcrübəsi
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-12">
+                <div
+                  class="item d-flex align-items-center justify-content-lg-center justify-content-start"
+                >
+                  <div class="item-bg">
+                    <img
+                      src="./src/images/footer-banner-2.png"
+                      class="h-100"
+                      alt="footer-banner-2"
+                    />
+                  </div>
+                  <div class="item-desc">
+                    <p class="my-0 mx-1 fw-normal">Dəriyə dərin hörmət</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-12">
+                <div
+                  class="item d-flex align-items-center justify-content-lg-center justify-content-start"
+                >
+                  <div class="item-bg">
+                    <img
+                      src="./src/images/footer-banner-3.png"
+                      class="h-100"
+                      alt="footer-banner-3"
+                    />
+                  </div>
+                  <div class="item-desc">
+                    <p class="my-0 mx-1 fw-normal">
+                      Effektivlik və təhlükəsizlik tibbi nəzarət altında
+                      sınaqdan keçirilmişdir
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-12">
+                <div
+                  class="item d-flex align-items-center justify-content-lg-center justify-content-start"
+                >
+                  <div class="item-bg">
+                    <img
+                      src="./src/images/footer-banner-4.png"
+                      class="h-100"
+                      alt="footer-banner-4"
+                    />
+                  </div>
+                  <div class="item-desc">
+                    <p class="my-0 mx-1 fw-normal">
+                      Səhiyyə mütəxəssisləri ilə 40 illik iş təcrübəsi
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="mb-4">
+        <div id="footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-3 col-12">
+                <div
+                  class="footer-left d-flex flex-column align-items-lg-start align-items-center mb-lg-0 mb-5"
+                >
+                  <a class="navbar-brand" href="./index.html"
+                    ><img src="./src/images/Naos Logo.svg" alt="logo"
+                  /></a>
+                  <span class="fw-normal text-lg-start text-center">
+                    NAOS dünyanın ilk müstəqil dəriyə qulluq şirkətlərindən
+                    biridir. NAOS eko biologiyadan ilhamlanaraq 3 marka yaratdı
+                  </span>
+                </div>
+              </div>
+              <div class="col-lg-9 col-12">
+                <div
+                  class="footer-right d-flex flex-lg-column flex-column-reverse"
+                >
+                  <div class="row">
+                    <div class="col-lg-4 col-12">
+                      <div
+                        class="footer-right-item nav-box d-flex flex-column align-items-lg-start align-items-center mb-lg-0 mb-5"
+                      >
+                        <h5 class="mb-3">Kateqoriyalar</h5>
+                        <ul
+                          class="nav flex-column align-items-lg-start align-items-center"
+                        >
+                          <li class="nav-item mb-3">
+                            <a href="#" class="nav-link p-0"
+                              >Brendlər və Məhsullar</a
+                            >
+                          </li>
+                          <li class="nav-item mb-3">
+                            <a href="#" class="nav-link p-0">Qulluq setləri</a>
+                          </li>
+                          <li class="nav-item mb-3">
+                            <a href="#" class="nav-link p-0">Üz qulluğu</a>
+                          </li>
+                          <li class="nav-item mb-3">
+                            <a href="#" class="nav-link p-0">Bədən qulluğu</a>
+                          </li>
+                          <li class="nav-item mb-3">
+                            <a href="#" class="nav-link p-0"
+                              >Günəş qoruyucuları</a
+                            >
+                          </li>
+                          <li class="nav-item mb-3">
+                            <a href="#" class="nav-link p-0">Göz yaş alma</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-12">
+                      <div
+                        class="footer-right-item nav-box d-flex flex-column align-items-lg-start align-items-center mb-lg-0 mb-5"
+                      >
+                        <h5 class="mb-3">Şirkət</h5>
+                        <ul
+                          class="nav flex-column align-items-lg-start align-items-center"
+                        >
+                          <li class="nav-item mb-3">
+                            <a href="#" class="nav-link p-0">Haqqımızda</a>
+                          </li>
+                          <li class="nav-item mb-3">
+                            <a href="#" class="nav-link p-0">Faydalı</a>
+                          </li>
+                          <li class="nav-item mb-3">
+                            <a href="#" class="nav-link p-0"
+                              >Aksiyalar və Kompaniyalar</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-12">
+                      <div
+                        class="footer-right-item nav-box d-flex flex-column align-items-lg-start align-items-center mb-lg-0 mb-5"
+                      >
+                        <h5 class="mb-3">Kömək</h5>
+                        <ul
+                          class="nav flex-column align-items-lg-start align-items-center"
+                        >
+                          <li class="nav-item mb-3">
+                            <a href="#" class="nav-link p-0">FAQ</a>
+                          </li>
+                          <li class="nav-item mb-3">
+                            <a href="#" class="nav-link p-0"
+                              >Ödəniş və çatdırılma</a
+                            >
+                          </li>
+                          <li class="nav-item mb-3">
+                            <a href="#" class="nav-link p-0"
+                              >Zəmanət şərtləri</a
+                            >
+                          </li>
+                          <li class="nav-item mb-3">
+                            <a href="#" class="nav-link p-0"
+                              >Mağaza ünvanları</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-4">
+                      <div
+                        class="logo d-flex align-items-center justify-content-center border-md-0"
+                      >
+                        <div class="text-decoration-none">
+                          <div class="marka-link-img mb-4">
+                            <img
+                              src="./src/images/image 1.svg"
+                              class="h-100 w-auto"
+                              alt="image 1"
+                            />
+                          </div>
+                          <div
+                            class="social d-none d-lg-flex align-items-center justify-content-center d"
+                          >
+                            <a
+                              href="https://www.facebook.com/bioderma.azerbaijan"
+                              class="social-link d-flex align-items-center justify-content-center"
+                            >
+                              <div
+                                class="social-ling-img d-flex align-items-center justify-content-center"
+                              >
+                                <img
+                                  class="w-100 h-100"
+                                  src="./src/images/facebook.svg"
+                                  alt="facebook"
+                                />
+                              </div>
+                            </a>
+                            <a
+                              href="https://www.instagram.com/bioderma.azerbaijan/"
+                              class="social-link d-flex align-items-center justify-content-center mx-2"
+                            >
+                              <div
+                                class="social-ling-img d-flex align-items-center justify-content-center"
+                              >
+                                <img
+                                  class="w-100 h-100"
+                                  src="./src/images/instagram.svg"
+                                  alt="instagram"
+                                />
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div
+                        class="logo d-flex align-items-center justify-content-center border-md-0"
+                      >
+                        <div class="text-decoration-none">
+                          <div class="marka-link-img mb-4">
+                            <img
+                              src="./src/images/image 2.svg"
+                              class="h-100 w-auto"
+                              alt="image 2"
+                            />
+                          </div>
+                          <div
+                            class="social d-none d-lg-flex align-items-center justify-content-center d"
+                          >
+                            <a
+                              href="https://www.facebook.com/bioderma.azerbaijan"
+                              class="social-link d-flex align-items-center justify-content-center"
+                            >
+                              <div
+                                class="social-ling-img d-flex align-items-center justify-content-center"
+                              >
+                                <img
+                                  class="w-100 h-100"
+                                  src="./src/images/facebook.svg"
+                                  alt="facebook"
+                                />
+                              </div>
+                            </a>
+                            <a
+                              href="https://www.instagram.com/bioderma.azerbaijan/"
+                              class="social-link d-flex align-items-center justify-content-center mx-2"
+                            >
+                              <div
+                                class="social-ling-img d-flex align-items-center justify-content-center"
+                              >
+                                <img
+                                  class="w-100 h-100"
+                                  src="./src/images/instagram.svg"
+                                  alt="instagram"
+                                />
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div
+                        class="logo d-flex align-items-center justify-content-center border-md-0"
+                      >
+                        <div class="text-decoration-none">
+                          <div class="marka-link-img mb-4">
+                            <img
+                              src="./src/images/image 3.svg"
+                              class="h-100 w-auto"
+                              alt="image 3"
+                            />
+                          </div>
+                          <div
+                            class="social d-none d-lg-flex align-items-center justify-content-center d"
+                          >
+                            <a
+                              href="https://www.facebook.com/bioderma.azerbaijan"
+                              class="social-link d-flex align-items-center justify-content-center"
+                            >
+                              <div
+                                class="social-ling-img d-flex align-items-center justify-content-center"
+                              >
+                                <img
+                                  class="w-100 h-100"
+                                  src="./src/images/facebook.svg"
+                                  alt="facebook"
+                                />
+                              </div>
+                            </a>
+                            <a
+                              href="https://www.instagram.com/bioderma.azerbaijan/"
+                              class="social-link d-flex align-items-center justify-content-center mx-2"
+                            >
+                              <div
+                                class="social-ling-img d-flex align-items-center justify-content-center"
+                              >
+                                <img
+                                  class="w-100 h-100"
+                                  src="./src/images/instagram.svg"
+                                  alt="instagram"
+                                />
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="footer-bottom mt-lg-5 mt-0">
+              <div class="row gy-lg-0 gy-3">
+                <div class="col-lg-4 col-12">
+                  <div
+                    class="copyright d-flex justify-content-lg-start justify-content-center text-lg-start text-center"
+                  >
+                    <span class="fw-medium">
+                      Bütün hüquqlar qorunur. &copy; 2022 BIODERMA
+                    </span>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                  <div
+                    class="social d-flex align-items-center justify-content-center"
+                  >
+                    <a
+                      href="https://www.facebook.com/bioderma.azerbaijan"
+                      class="social-link d-flex align-items-center justify-content-center"
+                    >
+                      <div
+                        class="social-ling-img d-flex align-items-center justify-content-center"
+                      >
+                        <img
+                          class="w-100 h-100"
+                          src="./src/images/facebook.svg"
+                          alt="facebook"
+                        />
+                      </div>
+                    </a>
+                    <a
+                      href="https://www.instagram.com/bioderma.azerbaijan/"
+                      class="social-link d-flex align-items-center justify-content-center mx-2"
+                    >
+                      <div
+                        class="social-ling-img d-flex align-items-center justify-content-center"
+                      >
+                        <img
+                          class="w-100 h-100"
+                          src="./src/images/instagram.svg"
+                          alt="instagram"
+                        />
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                  <span
+                    class="d-flex align-items-center justify-content-lg-end justify-content-center footer-right-text fw-medium"
+                  >
+                    Bu bir
+                    <a
+                      class="text-decoration-none mx-1 fw-medium"
+                      href="https://marcom.az/"
+                      target="_blank"
+                    >
+                      Marcom</a
+                    >
+                    məhsuludur.
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <div class="aside-social">
+        <div class="aside-social-wrap">
+          <a
+            href="#"
+            class="aside-social-item aside-social-item-wp d-flex align-items-center justify-content-center mb-2"
+          >
+            <img src="./src/images/whatsapp.svg" alt="whatsapp" />
+          </a>
+          <a
+            href="#"
+            class="aside-social-item aside-social-item-message d-flex align-items-center justify-content-center mb-2"
+          >
+            <img src="./src/images/message.svg" alt="message" />
+          </a>
+          <a
+            href="#header-sec"
+            class="aside-social-item scroll hidden d-flex align-items-center justify-content-center mb-2"
+          >
+            <img src="./src/images/up-chevron.svg" alt="up-chevron" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+    <script src="./src/js/script.js"></script>
+  </body>
+</html>
